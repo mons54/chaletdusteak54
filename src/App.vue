@@ -62,16 +62,25 @@
       <section class="accent pt-12 pb-12">
         <v-container class="text-center">
           <h2 class="font2 mb-4">Bienvenue au <span class="text--color">chalet du steak</span></h2>
-          <p>
-            Notre restaurant vous accueille dans un cadre chaleureux et convivial
-            pour que vous y passiez un agréable moment en famille ou entre amis.
-          </p>
+          <v-row>
+            <v-col cols="12" md="6" offset-md="3">
+              <p>
+                Notre restaurant vous accueille dans un cadre chaleureux et convivial
+                pour que vous y passiez un agréable moment en famille ou entre amis.
+              </p>
+            </v-col>
+          </v-row>
           <v-row class="spec">
+            <v-col cols="12" md="4">
+              <img class="icon" src="@/assets/steak.svg">
+              <div class="name">Grill</div>
+              <p>Côte de bœuf, Entrecôte, Faux-filet, Bavette, Poire, Rumsteck, Onglet, Steak du boucher, Dinde, Poulet, Merguez, Chipolata, ....</p>
+            </v-col>
             <v-col cols="12" md="4">
               <img class="icon" src="@/assets/restaurant.svg">
               <div class="name">Plats</div>
               <p>
-                Des plats traditionnels maison préparés le jour même,
+                Des plats traditionnels maison, préparés le jour même,
                 des produits de qualité et des fruits de mer frais.
               </p>
             </v-col>
@@ -81,21 +90,20 @@
               <p>
                 Nos desserts sont préparés avec délicatesse par nos cuisiniers.
                 Envie de fraîcheur ?
-                Nous proposons des fruits de saisons ou des coupes de glace.
+                Nous proposons des fruits de saisons et des coupes de glace.
               </p>
             </v-col>
-            <v-col cols="12" md="4">
-              <img class="icon" src="@/assets/steak.svg">
-              <div class="name">Grill</div>
-              <p>Côte de bœuf, Entrecôte, Faux-filet, Bavette, Poire, Rumsteck, Onglet, Steak du boucher, Dinde, Poulet, Merguez, Chipolata, ....</p>
+          </v-row>
+          <v-row>
+            <v-col cols="12">
+              <p>
+                Notre chef cuistot est à votre disposition pour vous aider à choisir vos pièces de bœufs parmi les meilleures parties.
+              </p>
+              <p>
+                Pour accompagner vos grillades, nous vous proposons également des légumes frais et de la friture.
+              </p>
             </v-col>
           </v-row>
-          <p>
-            Notre chef cuistot est à votre disposition, afin de vous aider à choisir vos pièces de bœufs parmi les meilleures parties.
-          </p>
-          <p>
-            Pour accompagner vos grillades, nous vous proposons également des légumes frais et de la friture.
-          </p>
         </v-container>
       </section>
       <section class="bg2 pt-12 pb-12">
